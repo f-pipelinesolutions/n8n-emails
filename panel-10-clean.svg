@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="972" height="241" viewBox="0 0 972 241" style="overflow:visible;display:block;">
+  <style><![CDATA[text{font-family:'Space Grotesk',system-ui,sans-serif;}]]></style>
+  <defs>
+    <clipPath id="cp"><rect width="972" height="241" rx="24" ry="24"/></clipPath>
+  </defs>
+  <g clip-path="url(#cp)">
+
+    <!-- Tile 1: 247 Active members -->
+    <rect x="28" y="28" width="217" height="185" rx="16" fill="rgba(8,10,20,0.70)"/>
+    <rect x="28" y="28" width="217" height="185" rx="16" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+    <text x="50" y="103" font-size="52" fill="#FFFFFF" font-weight="700">247</text>
+    <text x="50" y="144" font-size="18" fill="rgba(255,255,255,0.55)">Active members</text>
+    <text x="50" y="173" font-size="17" fill="#22C55E" font-weight="600">↑  12%</text>
+
+    <!-- Tile 2: 18 At-risk -->
+    <rect x="261" y="28" width="217" height="185" rx="16" fill="rgba(8,10,20,0.70)"/>
+    <rect x="261" y="28" width="217" height="185" rx="16" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+    <text x="283" y="103" font-size="52" fill="#FFFFFF" font-weight="700">18</text>
+    <text x="283" y="144" font-size="18" fill="rgba(255,255,255,0.55)">At-risk clients</text>
+    <rect x="283" y="157" width="152" height="30" rx="15" fill="#EF4444" fill-opacity="0.15"/>
+    <text x="359" y="173" font-size="16" fill="#EF4444" font-weight="600" text-anchor="middle" dominant-baseline="central">↓  needs attn</text>
+
+    <!-- Tile 3: 93 Hot leads -->
+    <rect x="494" y="28" width="217" height="185" rx="16" fill="rgba(8,10,20,0.70)"/>
+    <rect x="494" y="28" width="217" height="185" rx="16" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+    <text x="516" y="103" font-size="52" fill="#FFFFFF" font-weight="700">93</text>
+    <text x="516" y="144" font-size="18" fill="rgba(255,255,255,0.55)">Hot leads</text>
+    <text x="516" y="173" font-size="17" fill="#22C55E" font-weight="600">↑  38%</text>
+
+    <!-- Tile 4: 49% Lead→booked -->
+    <rect x="727" y="28" width="217" height="185" rx="16" fill="rgba(8,10,20,0.70)"/>
+    <rect x="727" y="28" width="217" height="185" rx="16" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+    <text x="749" y="103" font-size="52" fill="#FFFFFF" font-weight="700">49%</text>
+    <text x="749" y="144" font-size="18" fill="rgba(255,255,255,0.55)">Lead → booked</text>
+    <text x="749" y="173" font-size="17" fill="#22C55E" font-weight="600">↑  11%</text>
+
+  </g>
+</svg>

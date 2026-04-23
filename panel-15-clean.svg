@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="140" viewBox="0 0 420 140" style="overflow:visible;display:block;">
+  <style><![CDATA[text{font-family:'Space Grotesk',system-ui,sans-serif;}]]></style>
+  <defs>
+    <clipPath id="cp"><rect width="420" height="140" rx="20" ry="20"/></clipPath>
+    <clipPath id="sc"><rect x="93" y="56" width="267" height="60"/></clipPath>
+  </defs>
+  <g clip-path="url(#cp)">
+    <!-- Avatar -->
+    <circle cx="48" cy="70" r="27" fill="#3B82F6"/>
+    <text x="48" y="70" font-size="14" fill="white" font-weight="600" text-anchor="middle" dominant-baseline="central">ML</text>
+    <!-- Name + timestamp -->
+    <text x="93" y="44" font-size="17" fill="#FFFFFF" font-weight="600" text-anchor="start" dominant-baseline="central">Monte Lynch</text>
+    <text x="398" y="44" font-size="12" fill="rgba(255,255,255,0.28)" text-anchor="end" dominant-baseline="central">2m</text>
+    <!-- Snippet (2 lines, clipped) -->
+    <text x="93" y="72" font-size="13" fill="rgba(255,255,255,0.55)" text-anchor="start" dominant-baseline="central" clip-path="url(#sc)">Thanks for getting back to me. I just</text>
+    <text x="93" y="93" font-size="13" fill="rgba(255,255,255,0.38)" text-anchor="start" dominant-baseline="central" clip-path="url(#sc)">wanted to follow up on the proposal...</text>
+    <!-- Unread badge -->
+    <circle cx="385" cy="72" r="13" fill="#303FE1"/><text x="385" y="72" font-size="12" fill="#FFFFFF" font-weight="700" text-anchor="middle" dominant-baseline="central">2</text>
+  </g>
+</svg>
